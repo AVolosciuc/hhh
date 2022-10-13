@@ -1,0 +1,8 @@
+.container {
+  background-color: rgb(212, 32, 32);
+  font-size: 19px;
+}
+
+h1:hover + p {
+  color: blueviolet;
+}/*# sourceMappingURL=StyleScss.css.map */

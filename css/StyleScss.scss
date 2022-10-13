@@ -1,0 +1,13 @@
+$color_red: rgb(212, 32, 32);
+$fone_title: 19px;
+
+.container {
+    background-color: $color_red;
+    font-size: $fone_title;
+}
+
+h1 {
+    &:hover + p {
+        color: blueviolet;
+     }
+}

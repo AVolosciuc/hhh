@@ -52,13 +52,22 @@
     margin-left: 150px;
 }
 
-/* .div1:hover {
-    background-color: blue;
-    border-radius: 20px;
+.card_apple {
+    margin: 50px;
+    border: 1px solid pink;
+    background-color: pink;
 }
 
-.box1:active {
-    background-color: blueviolet;
-    margin-left: 100px;
-} */
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.container_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
